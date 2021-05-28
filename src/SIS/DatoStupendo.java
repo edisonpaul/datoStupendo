@@ -16,9 +16,7 @@ import SIS.logica.SolicitudDao;
  */
 public class DatoStupendo {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         
         int figura=0;
@@ -37,7 +35,7 @@ public class DatoStupendo {
         
         //Verifica los datos de las tablas intermedias en el caso que necesiten actualizacion
         try 
-        {
+        {            
             //Conectando a base
             System.out.println("Conectando a base de datos...");
             if(args[2].trim().equals("D"))
